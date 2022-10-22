@@ -1,3 +1,3 @@
-module feyst/go-test
+module feyst/lego-directadmin
 
 go 1.13
