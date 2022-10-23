@@ -17,5 +17,4 @@ jobs:
           goos: linux
           goarch: ${{ matrix.goarch }}
           md5sum: false
-          compress_assets: OFF
-          asset_name: ${BINARY_NAME}-${{ matrix.goarch }}
+          asset_name: lego-directadmin-${{ matrix.goarch }}
