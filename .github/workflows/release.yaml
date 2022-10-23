@@ -18,3 +18,4 @@ jobs:
           goarch: ${{ matrix.goarch }}
           md5sum: false
           asset_name: lego-directadmin-${{ matrix.goarch }}
+          goversion: 1.18
