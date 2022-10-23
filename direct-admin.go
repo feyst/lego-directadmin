@@ -14,14 +14,14 @@ import (
 
 func main() {
 
-    if len(os.Args) < 5 {
+    if len(os.Args) < 4 {
         log.Fatal(errors.New("Too few arguments"))
         return
     }
 
     action := os.Args[1]
-    acmeKey := os.Args[3]
-    acmeValue := os.Args[4]
+    acmeKey := os.Args[2]
+    acmeValue := os.Args[3]
 
     host := os.Getenv("DIRECTADMIN_HOST")
     username := os.Getenv("DIRECTADMIN_USERNAME")
