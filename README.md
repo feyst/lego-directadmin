@@ -19,7 +19,7 @@ git push --tags
 ```shell
 DIRECTADMIN_HOST=https://vserver442.axc.eu \
     DIRECTADMIN_USERNAME=feyst \
-    DIRECTADMIN_PASSWORD='dH92h!GLNp6BPc!9#wr#L#w@u9%grY' \
+    DIRECTADMIN_PASSWORD='udpReD29cZ2$CgF6khvG*h@659*kZ' \
     go run . \
     present \
     "_acme-challenge.feyst.nl." \
