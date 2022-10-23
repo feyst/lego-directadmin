@@ -1,6 +1,8 @@
 ## Download
-wget -c https://github.com/feyst/lego-directadmin/releases/download/latest/lego-directadmin-$(dpkg --print-architecture).tar.gz -O - | tar -xz
+```shell
+wget -c https://github.com/feyst/lego-directadmin/releases/latest/download/lego-directadmin-$(dpkg --print-architecture).tar.gz -O - | tar -xz
 chmod +x lego-directadmin
+```
 ## Test run
 ```shell
 DIRECTADMIN_HOST=https://server.domain.tld:2222 \
