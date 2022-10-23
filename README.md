@@ -1,7 +1,6 @@
 ## Download
 ```shell
-wget -c https://github.com/feyst/lego-directadmin/releases/latest/download/lego-directadmin-$(dpkg --print-architecture).tar.gz -O - | tar -xz
-chmod +x lego-directadmin
+wget  -q -c https://github.com/feyst/lego-directadmin/releases/latest/download/lego-directadmin-$(dpkg --print-architecture).tar.gz -O - | tar -xz
 ```
 ## Test run
 ```shell
